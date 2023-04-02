@@ -9,5 +9,5 @@ const allArgs = process.argv;
 if (allArgs.length > 2) {
   secondBiggest(...allArgs);
 } else {
-  console.log('0');
+  console.log(0);
 }
