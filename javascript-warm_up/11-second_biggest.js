@@ -6,7 +6,7 @@ function secondBiggest (x, y, ...manyMoreArgs) {
 
 const allArgs = process.argv;
 
-if (allArgs.length > 2) {
+if (allArgs.length > 3) {
   secondBiggest(...allArgs);
 } else {
   console.log(0);
