@@ -2,9 +2,9 @@
 const firstArg = process.argv[2];
 
 if (isNaN(firstArg)){
-    console.log("Missing number of occurrences");
+    console.log("Missing size");
 } else {
     for(let i = 0; i<firstArg; i++){
-        console.log("C is fun");
+        console.log("X".repeat(firstArg));
     }
 }
